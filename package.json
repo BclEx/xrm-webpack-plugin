@@ -1,0 +1,41 @@
+{
+  "name": "xrm-webpack-plugin",
+  "description": "Webpack plugin to continuously scaffold an xrm platform",
+  "version": "0.1.1",
+  "author": {
+    "name": "BclEx",
+    "url": "https://github.com/BclEx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BclEx/xrm-webpack-plugin"
+  },
+  "license": "MIT",
+  "main": "webpack.js",
+  "files": [
+    "webpack.js",
+    "webpack\file.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "generator-xrm": "^1.0.4",
+    "grouped-queue": "^0.3.2",
+    "jshint-stylish": "^2.0.0",
+    "yeoman-environment": "^1.2.7",
+    "lodash": "~0.9.2",
+    "glob": "~3.1.21",
+    "minimatch": "~0.2.12",
+    "exit": "~0.1.1",
+    "getobject": "~0.1.0",
+    "iconv-lite": "~0.2.11",
+    "dateformat": "1.0.2-1.2.3"
+  },
+  "keywords": [
+    "webpack",
+    "xrm"
+  ]
+}
